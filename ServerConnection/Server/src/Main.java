@@ -1,0 +1,10 @@
+import java.io.IOException;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Server s = new Server();
+        s.connect();
+        s.readMessage();
+        s.outputMessage();
+    }
+}
